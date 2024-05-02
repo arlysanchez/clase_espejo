@@ -1,0 +1,39 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : 2 may. 2024, 12:59:09
+    Author     : tpp
+*/
+
+html,
+body {
+    height: 100%;
+    margin: 0;
+    padding-top: 56px;
+}
+.navbar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000; /* Asegura que el header esté encima de otros elementos */
+}
+
+.wrapper {
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.copy{
+    background-color: rgba(0, 0, 0, 0.2);
+}
+.frame{
+    height: 480px;
+}
+iframe{
+    height: 100%;
+    width: 100%
+}
